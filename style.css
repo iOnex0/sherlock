@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    text-transform: capitalize;
+    list-style: none;
+    transition: 0.12s;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+body {
+    width: 100%;
+    background-color: #ffffffda; /* لون الخلفية */
+    background-image: 
+      linear-gradient(to right, #ccccccf0 1px, transparent 1px), /* خطوط رأسية */
+      linear-gradient(to bottom, #ccccccf0 1px, transparent 1px); /* خطوط أفقية */
+    background-size: 30px 30px; /* حجم الخلايا */
+}
+
+header {
+    padding: 20px 100px;
+    background-color: white;
+    justify-content: center;
+}
+
+.lu li a span {
+    color: coral;
+    font-size: 20px;
+}
+
+
+.sherlock {
+    width: 60px;
+    height: 60px;
+}
+
+.lu {
+    display: flex;
+    text-align: right;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.lu li{
+    display: flex;
+    margin-top: 20px;
+}
+
+.lu li a{
+    color: black;
+    font-size: 21px;
+    margin-right: 24px;
+}
+
+.lu i {
+    display: flex;
+    text-align: right;
+
+}
+
+
+.button {
+    font-size: 17px;
+    font-weight: 900;
+    padding: 16px 35px;
+    background-color: white;
+    color: #ff6600;
+    border-radius: 20px;
+    border-color: #ff6600;
+    border-style: double;
+}
+
+.button:hover {
+    color: white;
+    border-color: white;
+    background-color: #ff6600;
+}
+
+.li-ca {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-solid {
+    margin-top: 7px;
+    margin-right: 1px;
+}
+
+.first {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.dev {
+    height: 550px;
+    width: 550px;
+    
+}
+
+.first-para {
+    margin-top: 20px;
+}
+
+.first-para h1 {
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+
+.first-para p {
+    color: rgba(0, 0, 0, 0.772);
+    font-weight: 610;
+    font-size: 19px;
+    line-height: 32px;
+    text-transform: none;
+}
+
+.first-para div {
+    margin-top: 30px;
+}
+
+.contact-us {
+    border-color: white;
+    border-radius: 20px;
+    background-color: #ff6600;
+    color: white;
+    padding: 16px 35px;
+}
+
+.contact-us:hover {
+    border-color: #ff6600;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    color: #ff6600cd;
+    padding: 16px 35px;
+}
+
+.contact-us:hover + .tutorials {
+    border-color: #ffffff;
+    border-radius: 20px;
+    background-color: #ff6600;
+    color: #ffffffcd;
+    padding: 16px 35px;
+}
+
+.tutorials {
+    border-color: #ff6600;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    color: #ff6600;
+    padding: 16px 35px;
+}
+
+.second {
+    margin-left: 200px;
+    width: 1200px;
+    justify-content: center;
+}
+
+.second h2 {
+    padding: 10px;
+}
+
+.card-services {
+    margin-top: 80px;
+}
+
+
+hr {
+    margin-top: 30px;
+    width: 400px;
+    border: 1px solid #ff660090;
+    margin-right: 10px;
+}
+
+.card-services {
+    display: flex;
+    justify-content: center;
+    flex-direction: wrap;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card-service {
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 295px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.678);
+}
+
+.service-icon {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.service-title {
+    margin-left: 20px; 
+}
+
+.service-text p{
+    margin-left: 20px;
+}
+
+.read-more {
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    padding: 15px 30px;
+    border-radius: 20px;
+    background-color: white;
+    border-color: #ff6600;
+    color: #ff6600;
+    font-weight: 600;
+}
+
+.read-more:hover {
+    transform: scale(1.02);
+}
+
+
+.card-tutorial {
+    background-color: white;
+    width: 400px;
+    height: 250px;
+}
+
+.card-Web-template {
+    background-color: white;
+    width: 400px;
+    height: 250px;
+}
+
+.last0 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-right: 300px;
+}
+
+footer {
+    background-color: #ffffff;
+    padding: 50px 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 100px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+.social-media li a {
+    color: black;
+}
+
+.social-media li:hover {
+    color: rgba(0, 0, 0, 0.752);
+}
+
+
+.top {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.footer-links {
+    margin-bottom: 192px;
+}
+
+.footer-links a {
+    line-height: 25px;
+    color: black;
+}
+
+.footer-links a:hover {
+    color: rgba(0, 0, 0, 0.751);
+}
+
+
+.copy-right {
+    margin-top: auto; /* Pushes the element to the bottom */
+    text-align: center; /* Optional: Center the text */
+}
+
+/*tuturials*/
+
+.lang {
+    display: flex;
+    justify-content: center;
+}
+
+.lang a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 40px;
+    justify-content: center;
+}
+
+.lang a:hover {
+    color: white;
+    background-color: #ff6600;
+    border-radius: 20px;
+}
+
+
+
+.html1 h2{
+    font-size: 46px;
+}
+
+.html1 p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.html1 button {
+    padding: 15px 30px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    border-color: #ff6600;
+    color: #ff6600;
+    font-weight: 600;
+}
+
+.html1 button:hover {
+    background-color: #ff6600;
+    color: white;
+}
+
+/* Ensure the parent container uses flexbox */
+.lang1 {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Optional: Align items vertically */
+}
+
+/* Adjust the flex properties of the child elements */
+.html, .css {
+    display: flex;
+    gap: 30px; /* Optional: Add space between the elements */
+}
+
+.html1, .html2 {
+    flex: 1; /* Adjust the flex-grow property as needed */
+}
+
+.html2 {
+    height: 280px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    background-color: #252525;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+
+.html2 h3{
+    color: white;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.html3 {
+    margin-left: 10px;
+    width: 225px;
+    height: 220px;
+    background-color: rgb(28, 27, 27);
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+}
+
+.html3 span {
+    margin-bottom: 3px;
+    margin-left: 1px;
+}
+
+.k1 {
+    color: rgb(49, 49, 49);
+}
+
+.k2 {
+    color: rgba(19, 101, 254, 0.550);
+}
+
+.k3 {
+    color: rgba(41, 177, 255, 0.550);
+}
+
+.k4 {
+    color: rgba(255, 255, 255, 0.814);
+}
+
+.k5 {
+    color: rgba(210, 189, 0, 0.854);
+}
+
+.k6 {
+    color: rgba(255, 115, 0, 0.55);
+}
+
+
+

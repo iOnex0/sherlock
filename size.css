@@ -1,0 +1,93 @@
+@media (max-width: 360px) and (max-height: 740px) {
+    .header {
+        width: 70%;
+    }
+
+    body {
+        width: 638px;
+    }
+
+    .dev {
+        visibility: hidden;
+        width: 10px;
+        height: 10px;
+    }
+
+    .first {
+        height: 360px;
+        width: 360px;
+    }
+
+    .first-para {
+        width: 360px;
+        height: 330px;
+        margin-left: 50px;
+    }
+
+    .first-para h1 {
+        width: 600px;
+    }
+
+    .first-para p {
+        width: 600px;
+    }
+
+    .second {
+        margin-left: 80px;
+        width: 500px;
+    }
+
+    .footer {
+        padding: 20px 15%;
+    }
+
+    .footer-links {
+        margin-right: 40px;
+    }
+
+    .logo {
+        visibility: hidden;
+    }
+
+    .logo {
+        width: 1px;
+    }
+
+    .social-media {
+        visibility: hidden;
+    }
+
+    .social-media {
+        width: 1px;
+    }
+
+    .footer-links {
+        margin-bottom: 170px;
+    }
+
+}
+
+/* 2 */
+
+@media (max-width: 712px) and (min-width: 712px) and (min-height: 1138px) and  (max-height: 1138px) {
+    .body {
+        width: 200%;
+    }
+}
+
+/* 3 */
+
+@media (min-width: 799px) and (max-width: 801) and (min-height: 1279px) and (max-height: 1281px) {
+    .body {
+       width: 200%; 
+    }
+
+    .dev {
+        visibility: hidden;
+    }
+
+    .second {
+        margin-left: 80px;
+        width: 800px;
+    }
+}
